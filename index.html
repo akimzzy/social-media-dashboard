@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | Social media dashboard with theme switcher </title>
+</head>
+ 
+<body>
+  <section class="top">
+    <div class="top__text">
+      <h1 class="top__heading">Social Media Dashboard</h1>
+      <span class="top__followers">Total Followers: 23,004</span>
+    </div>
+
+    <div class="top__right">
+      <span class="switch__title">Dark Mode</span> 
+      <label class="switch">
+        <input type="checkbox" class="switch__checkbox"> 
+        <span class="switch__slider"></span>
+      </label>
+    </div>
+  </section>
+
+  <section class="socialMedia">
+    <div class="socialMedia__box socialMedia__facebook">
+      <div class="socialMedia__username"><img src="img/icon-facebook.svg" alt="facebook" class="socialMedia__icon">@nathanf</div>
+      <div class="socialMedia__followers">
+        <h1 class="socialMedia__number">1918</h1>
+        <span class="socialMedia__text">Followers</span>
+      </div>
+      <div class="socialMedia__track"><img src="img/icon-up.svg" alt="upward" class="socialMedia__track--img">12 Today</div>
+    </div>
+
+    <div class="socialMedia__box socialMedia__twitter">
+      <div class="socialMedia__username"><img src="img/icon-twitter.svg" alt="twitter" class="socialMedia__icon">@nathanf</div>
+      <div class="socialMedia__followers">
+        <h1 class="socialMedia__number">1044</h1>
+        <span class="socialMedia__text">Followers</span>
+      </div>
+      <div class="socialMedia__track"><img src="img/icon-up.svg" alt="upward" class="socialMedia__track--img">99 Today</div>
+    </div>
+
+    <div class="socialMedia__box socialMedia__instagram">
+      <div class="socialMedia__username"><img src="img/icon-instagram.svg" alt="instagram" class="socialMedia__icon">@realnathanf
+    </div>
+      <div class="socialMedia__followers">
+        <h1 class="socialMedia__number">11K</h1>
+        <span class="socialMedia__text">Followers</span>
+      </div>
+      <div class="socialMedia__track"><img src="img/icon-up.svg" alt="upward" class="socialMedia__track--img">1099 Today</div>
+    </div>
+
+    <div class="socialMedia__box socialMedia__youtube">
+      <div class="socialMedia__username"><img src="img/icon-youtube.svg" alt="youtube" class="socialMedia__icon">Nathan F.</div>
+      <div class="socialMedia__followers">
+        <h1 class="socialMedia__number">8239</h1>
+        <span class="socialMedia__text">Subscribers</span>
+      </div>
+      <div class="socialMedia__track socialMedia__track--youtube"><img src="img/icon-down.svg" alt="downward" class="socialMedia__track--img">144 Today</div>
+    </div>
+  </section>
+
+  <section class="overview">
+    <h2 class="overview__heading">Overview - Today</h2>
+
+      <div class="overview__container">
+        <div class="overview__box">
+          <h3 class="overview__title">Page Views</h3>
+          <img src="img/icon-facebook.svg" alt="facebook" class="overview__img">
+          <h1 class="overview__number">87</h1>
+          <div class="overview__track"><img src="img/icon-up.svg" alt="upward" class="overview__track--img">3%</div>
+        </div>
+
+        <div class="overview__box">
+          <h3 class="overview__title">Likes</h3>
+          <img src="img/icon-facebook.svg" alt="facebook" class="overview__img">
+          <h1 class="overview__number">52</h1>
+          <div class="overview__track socialMedia__track--youtube"><img src="img/icon-down.svg" alt="downward" class="overview__track--img">2%</div>
+        </div>
+     
+        <div class="overview__box">
+          <h3 class="overview__title">Likes</h3>
+          <img src="img/icon-instagram.svg" alt="instagram" class="overview__img">
+          <h1 class="overview__number">5462</h1>
+          <div class="overview__track"><img src="img/icon-up.svg" alt="upward" class="overview__track--img">2257%</div>
+        </div>
+      
+        <div class="overview__box">
+          <h3 class="overview__title">Profile Views</h3>
+          <img src="img/icon-instagram.svg" alt="instagram" class="overview__img">
+          <h1 class="overview__number">52k</h1>
+          <div class="overview__track"><img src="img/icon-up.svg" alt="upward" class="overview__track--img">1375%</div>
+        </div>
+      
+        <div class="overview__box">
+          <h3 class="overview__title">Retweets</h3>
+          <img src="img/icon-twitter.svg" alt="twitter" class="overview__img">
+          <h1 class="overview__number">117</h1>
+          <div class="overview__track"><img src="img/icon-up.svg" alt="upward" class="overview__track--img">303%</div>
+        </div>
+            
+        <div class="overview__box">
+          <h3 class="overview__title">Likes</h3>
+          <img src="img/icon-twitter.svg" alt="twitter" class="overview__img">
+          <h1 class="overview__number">507</h1>
+          <div class="overview__track"><img src="img/icon-up.svg" alt="upward" class="overview__track--img">553%</div>
+        </div>
+      
+        <div class="overview__box">
+          <h3 class="overview__title">Likes</h3>
+          <img src="img/icon-youtube.svg" alt="youtube" class="overview__img">
+          <h1 class="overview__number">107</h1>
+          <div class="overview__track socialMedia__track--youtube"><img src="img/icon-down.svg" alt="downward" class="overview__track--img">19%</div>
+        </div>
+
+        <div class="overview__box">
+          <h3 class="overview__title">Total Views</h3>
+          <img src="img/icon-youtube.svg" alt="youtube" class="overview__img">
+          <h1 class="overview__number">1407</h1>
+          <div class="overview__track socialMedia__track--youtube"><img src="img/icon-down.svg" alt="downward" class="overview__track--img">12%</div>
+        </div>
+      </div>
+       
+  </section>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdul Akeem</a>
+  </div> -->
+  <script src="script.js"></script> 
+</body>
+</html>
+
